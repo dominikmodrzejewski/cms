@@ -2,6 +2,13 @@
 
 <div id="wrapper">
 
+    <?php
+    if($connection) {
+        echo "connection";
+    }
+
+    ?>
+
     <!-- Navigation -->
     <?php include 'includes/navigation.php' ?>
 
@@ -16,6 +23,8 @@
                         Blank Page
                         <small>Subheading</small>
                     </h1>
+
+
                     <ol class="breadcrumb">
                         <li>
                             <i class="fa fa-dashboard"></i> <a href="index.php">Dashboard</a>
